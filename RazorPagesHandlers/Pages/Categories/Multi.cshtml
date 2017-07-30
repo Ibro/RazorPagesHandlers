@@ -1,0 +1,13 @@
+﻿@page "{id:int}"
+@model MultiModel
+
+@{
+    ViewData["Title"] = "Multi";
+}
+POST and GET handler
+
+<form method="post">
+    <div>Name: <input asp-for="Category.Name" /></div>
+    <div>Description: <input asp-for="Category.Description" /></div>
+    <button type="submit" class="btn btn-primary">Create New</button>
+</form>

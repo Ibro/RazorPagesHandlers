@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row">
+    <a asp-page="/Categories/Index">Categories</a>
+</div>
+<div class="row">
+    <a asp-page="/Categories/MultiPost">Multi Post</a>
+</div>
+<div class="row">
+    <a asp-page="/Categories/SinglePost">Single Post</a>
+</div>
+<div class="row">
+    <a asp-page="/Categories/IndexParamsForm">Send parameters via Form</a>
+</div>
+<div class="row">
+    <a asp-page="/Categories/IndexParamsRoute">Send parameters via Route</a>
+</div>

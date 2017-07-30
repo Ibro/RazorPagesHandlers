@@ -1,0 +1,17 @@
+﻿@page
+@model SinglePostModel
+
+<div>
+    <p>
+        Create new Category.
+    </p>
+    <div asp-validation-summary="All"></div>
+
+    <form method="POST">
+        <div>
+            Description: <input asp-for="Category.Description" />
+            <input type="submit" value="Save First" asp-page-handler="First" class="btn btn-primary btn-xs">
+        </div>
+    </form>
+
+</div>
